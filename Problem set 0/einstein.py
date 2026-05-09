@@ -1,4 +1,3 @@
-
 def joules(mass):
     c = 300000000
     total_energy =  mass * c * c
