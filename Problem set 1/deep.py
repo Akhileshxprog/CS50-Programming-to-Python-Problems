@@ -6,11 +6,10 @@
 
 def main():
     user_input = input("What is the answer to the great question? ")
-    print(deep(user_input))
+    print(deep(user_input)).lower().strip()
 
 
 def deep(que):
-    que = que.lower().strip()
     if que == "42" or que == "forty-two" or que == "forty two":
         return "Yes"
     else:
